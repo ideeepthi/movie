@@ -1,0 +1,50 @@
+.bg-custom {
+  background-color: black;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.btn-custom {
+  background-color: #e50914 !important;
+  font-weight: 800 !important;
+  color: black !important;
+}
+
+.signup-form {
+  max-width: 100%;
+}
+
+.inputs {
+  width: 50%;
+  margin: auto;
+}
+
+.form-group.required .control-label:after {
+  content: '*';
+  color: red;
+}
+.btn-collection {
+  max-width: 480px;
+  margin: auto;
+}
+
+.img-card {
+  margin: 5px 0px;
+  transition: 0.1s;
+}
+.img-card:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.btn-collection-playing {
+  max-width: 110px;
+  margin: 2em auto;
+}
